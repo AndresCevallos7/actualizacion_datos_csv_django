@@ -1,0 +1,25 @@
+<h1>Tabla de Registros:</h1>
+<table>
+  <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Cedula</th>
+        <th>Direccion</th>
+        <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for registro in registros %}
+    <tr>
+      <td>{{ registro.id }}</td>
+      <td>{{ registro.nombre }}</td>
+      <td>{{ registro.apellido }}</td>
+      <td>{{ registro.cedulaRUC }}</td>
+      <td>{{ registro.ciudad }}</td>
+      <td>{{ registro.provincia }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
