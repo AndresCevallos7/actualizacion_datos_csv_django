@@ -5,9 +5,10 @@
         <th>ID</th>
         <th>Nombre</th>
         <th>Apellido</th>
-        <th>Cedula</th>
-        <th>Direccion</th>
-        <th>Estado</th>
+        <th>Cedula/RUC</th>
+        <th>Ciudad</th>
+        <th>Provinncia</th>
+        <th>Correo</th>
     </tr>
   </thead>
   <tbody>
@@ -19,6 +20,7 @@
       <td>{{ registro.cedulaRUC }}</td>
       <td>{{ registro.ciudad }}</td>
       <td>{{ registro.provincia }}</td>
+      <td>{{ registro.correo }}</td>
     </tr>
     {% endfor %}
   </tbody>
