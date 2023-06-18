@@ -7,8 +7,11 @@ Paso 1.	Clonar el proyecto desde GitHub desde el bash de git con el siguiente co
 git clone https://github.com/AndresCevallos7/actualizacion_datos_csv_django
 
 Paso 2.	Abrimos VS Code, ejecutamos el terminal en la ruta raíz del proyecto en ese caso actualizacion_datos_csv_django ejecutamos los siguientes comandos para crear y activar el entorno virtual e instalar todas las dependencias.
+
 python -m venv venv : crear un entorno virtual con el nombre “venv”
+
 .\venv\Scripts\activate : se active el ambiente virtual
+
 pip install -r requirements.txt : se instalan todas las dependencias requeridas
 
 Paso 3.	Levantar el servicio, cuando activamos el ambiente virtual “venv”utilizar el siguiente comando:
